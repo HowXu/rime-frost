@@ -16,6 +16,8 @@ schema:
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
     - radical_pinyin  # 部件拆字，反查及辅码
+  icon: cn.ico # 中文图标
+  ascii_icon: en.ico # 英文图标
 
 
 # 开关
