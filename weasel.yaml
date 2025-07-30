@@ -18,7 +18,7 @@ show_notifications_time: 1200
 global_ascii: false
 
 # 风格预设
-__include: "weasel:/my_preset"
+# __include: "weasel:/win11_preset"
 
 style:
   antialias_mode: default
@@ -28,8 +28,8 @@ style:
   label_font_face: Maple Mono NF CN
   comment_font_face: Maple Mono NF CN
   font_point: 12
-  label_font_point: 9
-  comment_font_point: 9
+  label_font_point: 10
+  comment_font_point: 10
   candidate_abbreviate_length: 0
   click_to_capture: false
   horizontal: true
@@ -45,6 +45,26 @@ style:
   vertical_text: false
   vertical_text_left_to_right: false
   vertical_text_with_wrap: false
+  layout:
+    align_type: bottom
+    max_width: 640	#set 0 to disable max width
+    min_width: 200
+    min_height: 0
+    max_height: 0	#set 0 to disable max height
+    border_width: 3
+    margin_x: 12
+    margin_y: 8
+    spacing: 10
+    candidate_spacing: 10
+    hilite_spacing: 0
+    hilite_padding: 2
+    round_corner: 3   #别名 hilited_corner_radius
+    corner_radius: 3
+    shadow_radius: 0
+    shadow_offset_x: 4
+    shadow_offset_y: 4
+    linespacing: 0 # percentage of font point, 0 to disable
+    baseline: 0 # percentage of font point, 0 to disable
 
 preset_color_schemes:
   aqua:
@@ -251,26 +271,3 @@ win10_preset:
     round_corner: 0 # 高亮圆角，小狼毫天圆地方此项可设置为 0，也可自行调整
     shadow_offset_y: 4 # 阴影 Y 轴偏移
     shadow_radius: 10 # 阴影半径
-
-my_preset:
-  label_format: "%s" # 候选词标签格式
-  layout:
-    align_type: bottom
-    max_width: 640	#set 0 to disable max width
-    min_width: 200
-    min_height: 0
-    max_height: 0	#set 0 to disable max height
-    border_width: 3
-    margin_x: 12
-    margin_y: 8
-    spacing: 10
-    candidate_spacing: 10
-    hilite_spacing: 0
-    hilite_padding: 2
-    round_corner: 3   #别名 hilited_corner_radius
-    corner_radius: 3
-    shadow_radius: 0
-    shadow_offset_x: 4
-    shadow_offset_y: 4
-    linespacing: 0 # percentage of font point, 0 to disable
-    baseline: 0 # percentage of font point, 0 to disable
