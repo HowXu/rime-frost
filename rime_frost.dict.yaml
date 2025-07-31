@@ -21,11 +21,11 @@ import_tables:
   # - cn_dicts_cell/animal
   - cn_dicts_cell/game
   - cn_dicts_cell/idiom
-  - cn_dicts_cell/sport
+  # - cn_dicts_cell/sport
   - cn_dicts_cell/media
   - cn_dicts_cell/shulihua
   # - cn_dicts_cell/food
-  - cn_dicts_cell/inputmethod
+  # - cn_dicts_cell/inputmethod
   # - cn_dicts_cell/history
   - cn_dicts_cell/place
   - cn_dicts_cell/geography
