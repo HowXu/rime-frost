@@ -32,6 +32,7 @@ switches:
   - name: traditionalization
     states: [ 简, 繁 ]
   - name: emoji
+    reset: 1
     states: [ 💀, 😄 ]
   - name: full_shape
     states: [ 半角, 全角 ]

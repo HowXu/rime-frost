@@ -32,3 +32,5 @@ rime_deployer
 rime_patch
 
 *.zip
+
+user_dict.txt
