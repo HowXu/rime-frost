@@ -1,0 +1,12 @@
+patch:
+  "schema_list":
+    - schema: rime_frost # 只启用白霜
+  # 按键
+  "ascii_composer/switch_key":
+    Shift_L: noop  # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: noop     # commit_code | commit_text | inline_ascii | clear | noop
+    Control_L: commit_code     # commit_code | commit_text | inline_ascii | clear | noop
+    Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
+
+  "menu/page_size": 6 # 候选词个数
+  
