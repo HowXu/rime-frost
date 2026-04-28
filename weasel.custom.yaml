@@ -5,8 +5,8 @@ customization:
   modified_time: "Wed Jul 30 13:37:27 2025"
   rime_version: 1.13.1
 patch:
-  
   "show_notifications": false # 关闭切换提示图标
+  "hide_ime_mode_icon": true # PR版 关闭托盘图标
   # style 重写
   "style/antialias_mode": "default"
   "style/ascii_tip_follow_cursor": false
